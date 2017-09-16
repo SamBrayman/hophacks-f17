@@ -7,8 +7,26 @@
 	</head>
 	<body>
 		<p>This is the landing page for our extension.</p>
+		<div class="dropdown">
+  			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  			</button>
+  			<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    				<button class="dropdown-item" type="button">Home</button>
+    				<button class="dropdown-item" type="button">Upload a script</button>
+  			</div>
+		</div>
 		<div>
 			<p> This is the search bar </p>
+			<form>
+				<span>
+				<div class="form-group">
+    					<label for="exampleInputEmail1">Widget Search</label>
+    					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name of widget">
+    					<small id="emailHelp" class="form-text text-muted">Search for any widgets you'd like to use.</small>
+  				</div>
+				</span>
+			</form>
 		</div>
 		<div id=canvas>
 			<p> This is the canvas </p>

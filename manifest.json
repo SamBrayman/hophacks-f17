@@ -1,3 +1,8 @@
+//tells user specific things about extension 
+//name, description, etc.
+
+//also provides info to chrome about what extension it's trying to run
+
 {
   "manifest_version": 2,
 
@@ -6,7 +11,7 @@
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "icon.png",
+   "default_icon": "Swag.png",
    "default_popup": "popup.html"
   },
 

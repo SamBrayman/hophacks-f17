@@ -1,4 +1,4 @@
-//tells user specific things about extension 
+//tells user specific things about extension
 //name, description, etc.
 
 //also provides info to chrome about what extension it's trying to run
@@ -11,11 +11,16 @@
   "version": "1.0",
 
   "browser_action": {
-   "default_icon": "Swag.png",
-   "default_popup": "popup.html"
+   "default_icon": "Swag.png"
   },
 
   "permissions": [
    "activeTab"
-   ]
+  ],
+
+   "background": {
+     "scripts": [
+       "background.js"
+     ] 
+   }
 }

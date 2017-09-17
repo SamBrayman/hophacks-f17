@@ -1,0 +1,6 @@
+div with id from the html from plotly
+<div> </div>
+parse out the javascript 
+create a file from the hjavascript
+input java script into the html
+
